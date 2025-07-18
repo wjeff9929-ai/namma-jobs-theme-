@@ -43,10 +43,9 @@ A lightweight custom WordPress theme built with **PHP**, **MySQL**, and **WordPr
 Author
 Shailaja S. Poojary
 Final Year CSE Student | WordPress Theme Dev | AI & Web Projects
- LinkedIn
- shailaja.s.poojary091@gmail.com
+shailaja.s.poojary091@gmail.com
 
- License
+License
 This project is open source under the MIT License.
 
 
