@@ -1,24 +1,52 @@
-# NammaJobs Theme
+#  NammaJobs – Custom Job Listing WordPress Theme
 
-A custom WordPress theme for job listings.
+A lightweight custom WordPress theme built with **PHP**, **MySQL**, and **WordPress Theme Development** for job listing websites.
 
 ##  Features
-- Custom Post Type: Jobs
-- Job Archive Page (`/jobs`)
-- Search & Pagination
-- Job Detail Page
 
-##  Tech Used
-- PHP, MySQL
-- WordPress Theme Dev
-- WP_Query & meta_query
+-  Custom Job Post Type (`job`)
+-  Search & Filter by Category
+-  Pagination for Job Listings
+-  MySQL backend integration using `WP_Query` and `meta_query`
+-  Clean and modular theme file structure
 
-##  Structure
-- `functions.php`: Registers Job Post Type
-- `archive-job.php`: Lists all jobs
-- `single-job.php`: Displays individual job
-- `template-parts/content-job.php`: Job content template
+##  Technologies Used
 
----
+- **PHP**
+- **MySQL**
+- **WordPress CMS**
+- **Custom Theme Development**
+- **HTML/CSS**
 
-👩‍💻 Developed by [Shailaja Poojary](https://github.com/Shailaja-poojari)
+##  Key Files
+
+| File | Purpose |
+|------|---------|
+| `index.php` | Main listing template |
+| `page-templates/page-jobs.php` | Custom jobs page template |
+| `single-job.php` | Individual job details page |
+| `template-parts/content-job.php` | Reusable job card layout |
+| `style.css` | Theme metadata and basic styling |
+
+##  Usage
+
+1. Clone the repo into your `wp-content/themes` directory:
+   ```bash
+   git clone https://github.com/Shailaja-poojari/namma-jobs-theme-.git
+
+2. Activate the theme from WordPress Dashboard → Appearance → Themes.
+
+3. Create a page and assign it the "Jobs Page Template".
+
+4. Start adding jobs as custom posts via the WP Admin panel.
+
+Author
+Shailaja S. Poojary
+Final Year CSE Student | WordPress Theme Dev | AI & Web Projects
+ LinkedIn
+ shailaja.s.poojary091@gmail.com
+
+ License
+This project is open source under the MIT License.
+
+
